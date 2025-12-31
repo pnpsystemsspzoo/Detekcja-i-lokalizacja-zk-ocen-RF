@@ -1,0 +1,7 @@
+Exp_Int=Int0,Int1,Int2,Int3,Int4,Int5
+MainExpInt2=Int0,Int1
+PCIe_Ints5=PCIeInt1,PCIeInt2,PCIeInt3,PCIeInt4,PCIeInt5
+PWR_Int4=Int0,Int1,Int2,Int3,Int4,int5
+PWR_Interrupt=Int0,Int1,Int2,Int3,Int4,Int5
+PWR_PCIE_Int10=Int0,Int1,Int2,Int3,Int4,Fl0,Fl1,Fl2,Fl3,Fl4
+SFP_INTs=IMU_Int1,IMU_Int2,Int1,Int2

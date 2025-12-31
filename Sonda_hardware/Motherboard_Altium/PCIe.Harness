@@ -1,0 +1,5 @@
+Diff_1Pair=P,N
+Diff_2PairData=RX_P,RX_N,TX_P,TX_N
+Diff_3Diff_Pcie=SysRef_P,SysRef_N,Sync_P,Sync_N
+I2C=SDA,SCL
+SPI_H=CLK,MOSI,MISO,C\S\

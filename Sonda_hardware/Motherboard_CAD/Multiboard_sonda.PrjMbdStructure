@@ -1,0 +1,12 @@
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=MB1|Source=..\..\..\..\..\PnPSystems Altium\Main_Board\Main_Board.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\..\..\..\..\PnPSystems Altium\Main_Board\Main_Board.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=5|Source=..\..\Karta_GNSS_L1\Karta_Radiowa_GNSS\Karta Radiowa.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\..\Karta_GNSS_L1\Karta_Radiowa_GNSS\Karta Radiowa.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=3|Source=..\..\Karta_ILS\Karta_Radiowa_ILS_TETRA\Karta_Radiowa_ILS_TETRA.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\..\Karta_ILS\Karta_Radiowa_ILS_TETRA\Karta_Radiowa_ILS_TETRA.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=ILS1|Source=..\..\Karta_ILS\Karta_Radiowa_ILS_TETRA\Karta_Radiowa_ILS_TETRA.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\..\Karta_ILS\Karta_Radiowa_ILS_TETRA\Karta_Radiowa_ILS_TETRA.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=4|Source=..\..\Karta_Tetra\RF_Tetra\RF_Tetra.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\..\Karta_Tetra\RF_Tetra\RF_Tetra.PrjPcb
+Record=DiagramHierarchy|SourceDocument=MultiBoardSchematic1.MbsDoc|Kind=Multi-board Schematic Module|Designator=Karta1|Source=..\..\Karta_Tetra\RF_Tetra\RF_Tetra.PrjPcb
+Record=SubProject|SourceDocument=MultiBoardSchematic1.MbsDoc|ProjectPath=..\..\Karta_Tetra\RF_Tetra\RF_Tetra.PrjPcb

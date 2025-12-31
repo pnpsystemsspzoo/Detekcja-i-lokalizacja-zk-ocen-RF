@@ -1,0 +1,4 @@
+7_PG=PG0,PG1,PG2,PG3,PG4,PG5,PG6,PG7
+Power_ETH=VDDA2P5,VDDIO_3.3V,VDDA1P8,VDD1P0
+Power_status=S0,S1,Switch2_Flag,Switch1_Flag,En_Switch1,En_Switch2,S2
+PWR_Int4=Int0,Int1,Int2,Int3,Int4,int5

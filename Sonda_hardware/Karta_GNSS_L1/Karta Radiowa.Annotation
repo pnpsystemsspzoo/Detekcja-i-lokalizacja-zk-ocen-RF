@@ -1,0 +1,14 @@
+[DesignatorManager]
+LogicalDesignator0=
+LogicalPartID0=1
+DocumentName0=Zasilanie_LMK.SchDoc
+ChannelName0=U_Zasilanie_LMK
+UniqueID0=\HNWQHPFK\GRDJVMND
+PhysicalDesignator0=FB24
+PhysicalDesignatorLocked0=1
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+
+

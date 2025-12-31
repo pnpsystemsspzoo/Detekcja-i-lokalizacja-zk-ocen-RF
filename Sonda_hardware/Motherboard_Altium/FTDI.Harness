@@ -1,0 +1,4 @@
+2Uarts={IN1:uart},{IN2:uart}
+FTDI_En_Buff=EN_JTAG_FPGA,En_JTAG_DS,En_Uart1_2,En_Uart0
+JTAG=Vcc,JTAG_TDI,JTAG_TMS,JTAG_CLK,JTAG_TDO
+uart=RxD,TxD

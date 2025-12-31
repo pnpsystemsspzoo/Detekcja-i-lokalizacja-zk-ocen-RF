@@ -1,0 +1,3 @@
+PCIe_CLK_Syncs=PCIeInt1,PCIeInt2,PCIeInt3,PCIeInt4,PCIeInt5
+PCIe_Ints=PCIeInt1,PCIeInt2,PCIeInt3,PCIeInt4,PCIeInt5
+PCIe_Resets=Dig0,Dig1,Dig2,Dig3,Dig4

@@ -1,0 +1,3 @@
+[submodule "sonda-submodule"]
+	path = sonda-submodule
+	url = ../sonda-fpga.git

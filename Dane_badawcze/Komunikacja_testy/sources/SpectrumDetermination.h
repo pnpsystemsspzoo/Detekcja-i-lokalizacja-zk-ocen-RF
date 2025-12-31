@@ -1,0 +1,5 @@
+class SpectrumDetermination
+{
+    private:
+    public:
+};

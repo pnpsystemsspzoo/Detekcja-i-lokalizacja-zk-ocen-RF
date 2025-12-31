@@ -1,0 +1,13 @@
+{
+	"UserInterface": {
+		"TCP_server_ip": "0.0.0.0",
+		"TCP_server_port": 9001,
+		"share_path": "/home/software/SC/NodeWWW/docker/shared-volume/public/share"
+	},
+	"EventLogger": {
+		"log_path": "/home/software/SC/NodeWWW/docker/shared-volume/public/share/SClogs/event_logs.txt"
+	},
+	"Encryptor": {
+		"key_path": "/home/software/SCfiles/license-generator/key.txt"
+	}
+}

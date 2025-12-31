@@ -1,0 +1,10 @@
+Output: Export STEP
+Type  : MBAExportSTEP
+From  : Multi-board Assembly Document [Multiboard_sonda_1.MbaDoc]
+   Generated File[Multiboard_sonda_1.step]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 17:01:07 On 15.01.2021

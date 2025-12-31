@@ -1,0 +1,14 @@
+[DesignatorManager]
+LogicalDesignator0=
+LogicalPartID0=1
+DocumentName0=I2C_Bridge.SchDoc
+ChannelName0=I2C_Bridge_PCIE
+UniqueID0=\EXCDHAXR\EZCAMVTI\CDERIAMB
+PhysicalDesignator0=SP2_I2C_Bridge_PCIE
+PhysicalDesignatorLocked0=1
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+
+

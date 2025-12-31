@@ -1,0 +1,66 @@
+image: node:14.4
+
+variables:
+  CI: ""
+
+stages:
+  - build
+  - deploy
+  - docs
+
+cache:
+  paths:
+    - node_modules/
+    - source/node_modules/
+
+build:
+  stage: build
+  tags:
+    - frontend_ssh
+  script:
+    - npm install
+    - npm install --prefix ./source
+    - npm run build --prefix ./source
+  artifacts:
+    paths:
+      - source/build/
+
+deploy:
+  stage: deploy
+  only:
+    - master
+  tags:
+    - frontend_ssh
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - cd ..
+    - sudo cp -R frontend/* /shared-volume/deploy/
+    - sudo rm -rfd /shared-volume/deploy/public
+    - sudo cp -R /shared-volume/deploy/source/public /shared-volume/deploy/
+    - cd /shared-volume/deploy
+    - sudo rm -f ".env"
+    - sudo cp $ENVFILE .env
+    - sudo forever restart 0 || sudo forever start serwWWW.js
+    - cd source
+    - sudo cp -R build/* /var/www/frontend/
+
+docs:
+  stage: docs
+  only:
+    - master
+  dependencies:
+    - deploy
+  tags:
+    - frontend_app_deploy
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - cd /shared-volume/deploy/source
+    - sudo apt update
+    - sudo apt install sshpass -y
+    - sudo npm run docs
+    - sudo rm -f "sshscript.sh"
+    - sudo cp $SSHSCRIPT sshscript.sh
+    - sudo chmod +x sshscript.sh
+    - sudo bash sshscript.sh $CI_PROJECT_NAME

@@ -1,0 +1,6 @@
+CLK_DIFF=CLK_N,CLK_P
+DATA_OUT=DATA_N,DATA_P
+Diff_Anal=Negativ,Positiv
+Diff_Dig=P,N
+Diff_Digit=P,N
+SPI=SDA,SCK,\C\S\,SDI

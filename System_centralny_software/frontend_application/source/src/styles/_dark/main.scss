@@ -1,0 +1,26 @@
+.bg-dark {
+    table {
+        color: white;
+    }
+
+    textarea {
+        color: white;
+        background: transparent;
+    }
+
+    .probe {
+        &__header ul button.active {
+            background: #080d1d;
+        }
+
+        .grid-item {
+            border-color: rgba(160, 175, 185, 0.15);
+        }
+    }
+
+    .probe-channel {
+        &__header {
+            border-color: rgba(160, 175, 185, 0.15);
+        }
+    }
+}

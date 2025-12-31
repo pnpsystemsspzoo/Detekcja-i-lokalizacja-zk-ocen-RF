@@ -1,0 +1,1 @@
+g++  -o sonda main.cpp ADC_AD9690.cpp ADC_LTC2122.cpp CLKdist_LMK04610.cpp GNSS_MAX2771.cpp GPIO_EXP_MCP23017.cpp SPIcommunicator.cpp I2C_SWD_PCA9546.cpp PowerMeg_INA226.cpp RadioCard.cpp RadioTrack.cpp -lpthread -std=c++11 -fpermissive

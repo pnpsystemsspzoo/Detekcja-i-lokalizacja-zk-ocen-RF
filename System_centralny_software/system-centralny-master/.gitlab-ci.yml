@@ -1,0 +1,50 @@
+stages:
+  - build
+  - tests
+  - deploy
+  - docs
+  
+build:
+  stage: build
+  tags: 
+    - system_centralny
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  script:
+    - cp ${SETTINGS_JSON} src/settings.json
+    - cp ${LICENSE_ENCRYPTION_KEY} src/key.txt
+    - ls -la
+    - pwd
+    - sc.build
+    
+    
+tests:
+  stage: tests
+  tags:
+    - system_centralny
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - sc.tests.build
+    - sc.tests.run
+    
+
+deploy:
+  stage: deploy
+  only:
+    - master
+  tags:
+    - system_centralny_deploy
+  variables:
+    GIT_STRATEGY: none
+  script:
+    - sc.rund
+    - sleep 1
+    - sc.status
+
+docs:
+  stage: docs
+  tags: 
+    - doxygen
+  script:
+    - sh /scripts/doxygen.sh $CI_PROJECT_NAME

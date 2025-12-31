@@ -1,0 +1,7 @@
+Analog=Ain0,Ain1,Ain2
+Diff_1Pair=P,N
+Diff_3Diff_Pcie=SysRef_P,SysRef_N,Sync_P,Sync_N
+I2C=SDA,SCL
+PCIe_CLK_Syncs=PCIeInt1,PCIeInt2,PCIeInt3,PCIeInt4,PCIeInt5
+SPI_H=CLK,MISO,MOSI,C\S\
+uart=RxD,TxD

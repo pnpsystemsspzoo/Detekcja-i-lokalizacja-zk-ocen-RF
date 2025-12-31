@@ -1,0 +1,14 @@
+node_modules
+.remote.yml
+info.txt
+.env
+.env.dev
+.env.prod
+/public
+/interference_report.pdf
+basic_report_screenshot.jpeg
+extended_report_screenshot.jpeg
+/data
+/reports
+/autoReports
+/logs

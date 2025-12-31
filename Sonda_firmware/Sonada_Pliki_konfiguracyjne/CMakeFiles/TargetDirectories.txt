@@ -1,0 +1,3 @@
+/home/pi/actMainBoard2_druk/CMakeFiles/rebuild_cache.dir
+/home/pi/actMainBoard2_druk/CMakeFiles/projekt_cmake.dir
+/home/pi/actMainBoard2_druk/CMakeFiles/edit_cache.dir
